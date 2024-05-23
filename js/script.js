@@ -26,6 +26,9 @@ function resetValue()
     grayscale.value="0";
     blur.value="0";
     hueRotate.value="0";
+    Canvas.width=img.width;
+    Canvas.height=img.height;
+    ctx.drawImage(img,0,0,Canvas.width, Canvas.height);
 }
 
 
