@@ -91,6 +91,14 @@ body
 @media screen and (min-width:300px) and (max-width:400px) {
     .img img,
         canvas {
-            max-width: 65vw;
+            max-width: 55vw;
+        }
+     .filters ul li input {
+            cursor: pointer;
+            margin-right: 15px;
+        }
+        .filters ul li label
+        {
+           margin-right: 12px; 
         }
 }
