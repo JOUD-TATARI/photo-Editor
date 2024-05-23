@@ -91,7 +91,7 @@ body
 @media screen and (min-width:300px) and (max-width:400px) {
     .img img,
         canvas {
-            max-width: 55vw;
+            max-width: 90%;
         }
      .filters ul li input {
             cursor: pointer;
