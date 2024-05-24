@@ -86,7 +86,7 @@ body
         max-width:80vw;
     }
     .filters {
-        height: 150px;
+        height: 200px;
         overflow-y: scroll;
         padding-right: 13px;
     }
