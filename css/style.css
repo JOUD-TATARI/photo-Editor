@@ -94,7 +94,7 @@ body
         }
     .filters {
         height: 60vh;
-        overflow: auto;
+        overflow-y: scroll;
         padding-right: 13px;
     }
 /*      .filters ul li input {
