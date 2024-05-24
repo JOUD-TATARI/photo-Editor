@@ -92,6 +92,11 @@ body
         canvas {
             width: 90%;
         }
+    .filters {
+        height: 60vh;
+        overflow: auto;
+        padding-right: 13px;
+    }
 /*      .filters ul li input {
             cursor: pointer;
             margin-right: 15px;
