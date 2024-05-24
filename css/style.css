@@ -85,6 +85,11 @@ body
     canvas {
         max-width:80vw;
     }
+    .filters {
+        height: 60vh;
+        overflow-y: scroll;
+        padding-right: 13px;
+    }
 }
 
 @media screen and (min-width:300px) and (max-width:400px) {
@@ -92,11 +97,7 @@ body
         canvas {
             width: 90%;
         }
-    .filters {
-        height: 60vh;
-        overflow-y: scroll;
-        padding-right: 13px;
-    }
+    
 /*      .filters ul li input {
             cursor: pointer;
             margin-right: 15px;
